@@ -16,3 +16,18 @@ Pull Request - it lets you tell others about changes you have pushed to a branch
 Pull command - git pull origin main - used to fetch and download content from a remote repo and immediately update the local repo to match that content.
 
 Resolving merge conflicts - it is an event takes place when git unable to automatically resolve differences in code between two commits
+
+Undoing changes
+case1 - staged changes (add .)
+git reset <-file name->
+git reset (reset every file)
+
+case2 - commited changes (for one commit)
+git reset HEAD~1
+
+case3 - commited changes (for many commits)
+git reset <-commit hash->
+git reset --hard <-commit hash->
+
+Fork - a fork is a new repository that shares code and visibility setting with original "upstream" repository.
+fork is a rough copy.
