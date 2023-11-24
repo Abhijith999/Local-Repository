@@ -1,0 +1,6 @@
+branch commands
+git branch - to check branch in which we are in currently
+git branch -M branch - to rename branch name
+git checkout <-branch name-> - used to shift to mentioned branch
+git checkout -b <-new branch name-> - to create new branch
+git branch -d <-branch name-> - used to delete mentioned branch
