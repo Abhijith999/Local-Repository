@@ -1,1 +1,2 @@
-this repo consist of local repo commands
+
+this repo consist of commands related to local repo.
